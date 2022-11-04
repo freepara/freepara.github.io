@@ -1,0 +1,68 @@
+
+.rr {
+    text-align: center;
+}
+
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+
+body {
+    margin: 0;
+    background-color: #efefef;
+}
+
+header {
+    background-color: #364552;
+    color: white;
+    padding: 2rem 2rem;
+}
+
+.mm {
+    text-align: center;
+}
+
+header h1 {
+    font-size: 3rem;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+section article {
+    transition: box-shadow 0.3s ease;
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.15rem 0;
+    cursor: pointer ;
+}
+
+section article h2, section article p {
+    margin: 1rem;
+}
+
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.4);
+}
+
+footer {
+    background-color: #222;
+    padding: 3rem;
+    color: #fff;
+}
+
+footer section {
+    float: right;
+}
+
+footer a {
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: aquamarine;
+}
